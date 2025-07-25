@@ -1,0 +1,24 @@
+body{
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    background-color: lightgreen;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+p{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+div terra{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+terra img{
+    width: 60px;
+    height: auto;      
+}
