@@ -15,7 +15,8 @@ p{
 }
 terra img{
     width: 40px;
-    height: auto;      
+    height: auto;    
+    border-style: dashed; 
 }
 div {
     display: grid;
