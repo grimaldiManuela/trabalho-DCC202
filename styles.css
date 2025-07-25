@@ -13,12 +13,14 @@ p{
     justify-content: center;
     width: 100vw;
 }
-div terra{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
 terra img{
-    width: 60px;
+    width: 40px;
     height: auto;      
+}
+div {
+    display: grid;
+    grid-template-columns: repeat(12, 40px);
+    grid-template-rows: repeat(12, 40px);
+    justify-content: center;
+    justify-items: center;
 }
